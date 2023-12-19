@@ -44,9 +44,10 @@ const MyForm = () => {
         body: JSON.stringify(formDataWithIntAge),
       })
 
+      const result = await response.json();
+      alert(result.message)
+      
       if(response.ok){
-        const result = await response.json();
-        alert(result.message)
         if(result.message.includes("Payment successful")){
           setFormData({
             name: '',

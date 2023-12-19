@@ -71,3 +71,13 @@ This API endpoint is used for submitting the yoga class registration form.
     "selectedBatch": "7-8 AM",
     "paymentDetails": "xyz",
   }
+
+## Outputs
+
+### When age is entered incorrectly
+
+![Alt text](wrong_age_output.png)
+
+### When all details are filled correctly
+
+![Alt text](correct_age_output.png)
